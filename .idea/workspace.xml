@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="94620c83-98b3-4ac4-b116-8dc7dde002a4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/contracts/Ownable.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/PriceSource.sol" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/PriceSource.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/StakingRewards.sol" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/StakingRewards.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/VaultMetaRegistry.sol" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/VaultMetaRegistry.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/qidao.sol" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/qidao.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hardhat.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/hardhat.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oracles/shareOracle.sol" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/oracles/shareOracle.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="282ZG79rYD3l4cDt6XZPQtClhIr" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/librairies/OpenZeppelin-v3.2.0" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Users\micdu\Code\defi\qidao\node_modules\typescript\lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\micdu\Code\defi\qidao\librairies\OpenZeppelin-v3.2.0" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\micdu\Code\defi\qidao\librairies" />
+      <recent name="C:\Users\micdu\Code\defi\qidao\contracts" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="94620c83-98b3-4ac4-b116-8dc7dde002a4" name="Default Changelist" comment="" />
+      <created>1650416544095</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1650416544095</updated>
+      <workItem from="1650416545216" duration="5145000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.6.12;
 
-import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v3.2.0/contracts/token/ERC20/IERC20.sol";
-import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v3.2.0/contracts/token/ERC20/SafeERC20.sol";
-import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v3.2.0/contracts/utils/EnumerableSet.sol";
-import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v3.2.0/contracts/math/SafeMath.sol";
-import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v3.2.0/contracts/access/Ownable.sol";
+import "../librairies/openzeppelin-contracts-3.4.0/contracts/token/ERC20/IERC20.sol";
+import "../librairies/openzeppelin-contracts-3.4.0/contracts/token/ERC20/SafeERC20.sol";
+import "../librairies/openzeppelin-contracts-3.4.0/contracts/utils/EnumerableSet.sol";
+import "../librairies/openzeppelin-contracts-3.4.0/contracts/math/SafeMath.sol";
+import "../librairies/openzeppelin-contracts-3.4.0/contracts/access/Ownable.sol";
 
 abstract contract ReentrancyGuard {
     // Booleans are more expensive than uint256 or any type that takes up a full
@@ -102,7 +102,7 @@ contract Farm is Ownable, ReentrancyGuard {
     uint256 public startBlock;
     // The block number when farming ends.
     uint256 public endBlock;
-    
+
     // Deposit Fee address
     address public feeAddress;
 
@@ -117,7 +117,7 @@ contract Farm is Ownable, ReentrancyGuard {
         endBlock = _startBlock;
         feeAddress = _feeAddress;
     }
-    
+
     function setFeeAddress(address _feeAddress) public {
         require(msg.sender == feeAddress, "setFeeAddress: FORBIDDEN");
         feeAddress = _feeAddress;
@@ -234,7 +234,7 @@ contract Farm is Ownable, ReentrancyGuard {
             uint256 pendingAmount = user.amount.mul(pool.accERC20PerShare).div(1e12).sub(user.rewardDebt);
             erc20Transfer(msg.sender, pendingAmount);
         }
-        
+
         if (_amount > 0) {
             pool.lpToken.safeTransferFrom(address(msg.sender), address(this), _amount);
             if (pool.depositFeeBP > 0) {
